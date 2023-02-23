@@ -5,14 +5,17 @@
     Initializes size
     contains a function thst calculates the square
     can access the value of declared size
+
 """
 class Square:
     """
-    Squre class
+    A Square class
+
     """
     def __init__(self, size=0):
         """
         Initializes the size
+
         """
         self.size = size
 
@@ -20,6 +23,7 @@ class Square:
     def size(self):
         """
         Gets the size of square
+
         """
         return self.__size
 
@@ -27,6 +31,7 @@ class Square:
     def size(self, value):
         """
         Sets the size of square
+
         """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -37,5 +42,6 @@ class Square:
     def area(self):
         """
         Calculates the area of square
+
         """
         return self.__size ** 2

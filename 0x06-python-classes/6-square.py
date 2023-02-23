@@ -6,14 +6,17 @@
     Contaons a funtion that calculates square
     gats the value of size
     contains a funtion that prints
+
 """
 class Square:
     """
     A Square class
+
     """
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes the size and position
+
         """
         self.size = size
         self.position = position
@@ -22,6 +25,7 @@ class Square:
     def size(self):
         """
         Gets the size
+
         """
         return (self.__size)
 
@@ -29,6 +33,7 @@ class Square:
     def size(self, value):
         """
         Sets the value of size
+
         """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -40,6 +45,7 @@ class Square:
     def position(self):
         """
         Gets the position
+
         """
         return (self.__position)
 
@@ -47,6 +53,7 @@ class Square:
     def position(self, value):
         """
         Sets the value of position
+
         """
         if not isinstance(value, tuple) or \
                 len(value) != 2 or not \
@@ -58,12 +65,14 @@ class Square:
     def area(self):
         """
         Calculates the area
+
         """
         return self.__size ** 2
 
     def my_print(self):
         """
         Prints '#'
+
         """
         if self.__size == 0:
             print()
