@@ -1,9 +1,11 @@
 #!/usr/bin/python3
+
 """
-0. A Square class
-    an empty class
+0. Square class
+    Contains an empty class that defines a square
 """
+
 class Square:
     """
-    Empty
+    An empty class
     """
