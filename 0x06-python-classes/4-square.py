@@ -1,38 +1,27 @@
 #!/usr/bin/python3
 
-"""
-1. Square that accepts size
+"""1. Square that accepts size
     Initializes size
     contains a function thst calculates the square
-    can access the value of declared size
+    can access the value of declared size."""
 
-"""
 class Square:
-    """
-    A Square class
+    """A Square class"""
 
-    """
     def __init__(self, size=0):
-        """
-        Initializes the size
-
-        """
+        """Initializes the size."""
         self.size = size
 
     @property
     def size(self):
-        """
-        Gets the size of square
+        """Gets the size of square."""
 
-        """
         return self.__size
 
     @size.setter
     def size(self, value):
-        """
-        Sets the size of square
+        """Sets the size of square."""
 
-        """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
@@ -40,8 +29,6 @@ class Square:
         self.__size = value
 
     def area(self):
-        """
-        Calculates the area of square
+        """Calculates the area of square."""
 
-        """
         return self.__size ** 2

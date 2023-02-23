@@ -1,22 +1,14 @@
 #!/usr/bin/python3
 
-"""
-1. Square class
+"""1. Square class
     contains size validation
-    contains a function for calculating the area.
-
-"""
+    contains a function for calculating the area."""
 class Square:
-    """
-    A Square class that accepts size
-
-    """
+    """A Square class that accepts size."""
 
     def __init__(self, size=0):
-        """
-        Size initialization
+        """Size initialization."""
 
-        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -24,8 +16,6 @@ class Square:
         self.__size = size
 
     def area(self):
-        """
-        Calculates the area
+        """Calculates the area."""
 
-        """
         return self.__size ** 2
