@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """1. Square that accepts size
     Initializes size
     contains a function thst calculates the square

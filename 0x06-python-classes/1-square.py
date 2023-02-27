@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """1. A class Square that accepts a size for the square
     contains a funtion that initialize the size."""
 

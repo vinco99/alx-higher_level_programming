@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """1. Square that accepts size
     contains a class that initialize size
     contains a function that calculates area."""

@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
 """1. Square class
     contains size validation
     contains a function for calculating the area."""
+
 class Square:
     """A Square class that accepts size."""
 

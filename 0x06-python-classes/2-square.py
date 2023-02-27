@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """3. A Square class with size validation
     contains private intance attribute size
     calculates the area of the square."""
