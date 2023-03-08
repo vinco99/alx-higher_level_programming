@@ -7,6 +7,7 @@ It has a funtion def add_integer(a, b=98):
 
 def add_integer(a, b=98):
     """Return the sum of two numbers a and b"""
+
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
     if not isinstance(b, (int, float)):
@@ -15,4 +16,4 @@ def add_integer(a, b=98):
         a = int(a)
     if type(b) is float:
         b = int(b)
-    return a + b
+    return (a + b)
