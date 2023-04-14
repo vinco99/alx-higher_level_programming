@@ -1,2 +1,5 @@
 #!/usr/bin/node
-export.add = (a, b) => a + b;
+function add (a, b) {
+  return a + b;
+}
+window.add = add;
